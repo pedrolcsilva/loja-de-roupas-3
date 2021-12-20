@@ -1,0 +1,116 @@
+form h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+#infoC {
+    padding: 25px;
+    margin: 0 350px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(227, 255, 250);
+    border-radius: 25px 25px 0 0;
+    align-items: center;
+    border-top: 2px solid rgb(14, 100, 1);
+    border-right: 2px solid rgb(14, 100, 1);
+    border-left: 2px solid rgb(14, 100, 1);
+}
+
+#infoC div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(14, 100, 1);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    background-color: #fff;
+    border: 2px solid grey;
+    height: 25px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#tableBg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 350px;
+    border-radius: 0 0 25px 25px;
+    border-bottom: 2px solid rgb(14, 100, 1);
+    border-right: 2px solid rgb(14, 100, 1);
+    border-left: 2px solid rgb(14, 100, 1);
+    background-color: rgb(227, 255, 250);
+}
+
+#tableBg table{
+    background-color: #fff;
+    width: 650px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#jurosC {
+    margin-bottom: 10px;
+}
+
+#jurosC ~ button{
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(14, 100, 1);
+}
+
+#filter {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    background-color: #fff;
+    width: 650px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#filterBG {
+
+    padding: 25px;
+    margin: 25px 350px;
+    display: flex;
+    background-color: rgb(227, 255, 250);
+    border-radius: 25px;
+    border: 2px solid rgb(14, 100, 1);
+    justify-content: space-around;
+}
+
+#tableFiltered {
+    background-color: #fff;
+    width: 650px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

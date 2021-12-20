@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="pt_BR">
+
+    <head>
+        <title>Loja de Roupas</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <form>
+            <h1>
+                Loja de Roupas da Joana
+            </h1>
+            <section id="infoC">
+                <div>
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" />
+                </div>
+                <div>
+                    <label for="datev">Data de Vencimento</label>
+                    <input type="date" id="datev" />
+                </div>
+                <div>
+                    <label for="purchValue">Valor da Compra</label>
+                    <input type="number" id="purchValue">
+                </div>
+                <div>
+                    <button type="button" id="saveC">Adicionar</button>
+                </div>
+            </section>
+            <section id="tableBg">
+                <table id="tableResult">
+                    <thead>
+                        <tr>
+                            <th>Nome do Cliente</th>
+                            <th>Data de Vencimento</th>
+                            <th>Valor da Compra</th>
+                            <th>Porc. Juros</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>    
+                <button type="button" id="jurosC">Calcular Juros</button>
+                <button type="button" id="agrC">Agrupar por Cliente</button>
+                <button type="button" id="agrD">Agrupar por Data de Venc.</button>
+            </section>
+        </form>
+
+        <form id="filterBG">
+            <section>
+                <div>
+                    <label for="dateIfilter">Data Inicial</label>
+                    <input type="date" id="dateIfilter" />
+                </div>
+    
+                <div>
+                    <label for="dateFfilter">Data Inicial</label>
+                    <input type="date" id="dateFfilter" />
+                </div>
+    
+                <div>
+                    <label for="minValue">Valor Min.</label>
+                    <input type="number" id="minValue">
+                </div>
+
+                <div>
+                    <label for="maxValue">Valor Max.</label>
+                    <input type="number" id="maxValue">
+                </div>
+
+                <div>
+                    <button type="button" id="filter-btn">Filtrar</button>
+                </div>
+            </section>
+            
+            <section>
+                <table id="tableFiltered">
+                    <thead>
+                        <tr>
+                            <th>Nome do Cliente</th>
+                            <th>Data de Vencimento</th>
+                            <th>Valor da Compra</th>
+                            <th>Porc. Juros</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>   
+            </section>
+        </form>
+        
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
